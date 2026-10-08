@@ -8,10 +8,20 @@ The download is approximately 39 MB. Images and internal links work offline; no 
 
 This is the updated **cinematic design**: deep charcoal tones, dramatic dough photography, animated flour particles, a pinned opening scene, scroll-driven horizontal collections, and layered image movement. On mobile, swipe through the collections. Use **Pause motion** at the bottom of the opening scene to turn off motion; reduced-motion system preferences are respected automatically.
 
-The mockup includes the main site pages, 342 products, 40 categories, product variations, archive filters, sticky mobile off-canvas filters, and a demo basket and checkout. All 14 WordPress/offline browser tests passed, including navigation to every product and category, scrolling behavior and reduced-motion support.
+The mockup includes the main site pages, 342 products, 40 categories, product variations, archive filters, sticky mobile off-canvas filters, and a demo basket and checkout. Browser checks cover navigation to every product and category, scrolling behavior, reduced-motion support, checkout totals, pickup, and calendar validation.
 
 The visual design closely follows the WordPress build. Checkout is simulated: it does not place orders, collect payments or submit personal information. External email, phone, maps, WhatsApp and delivery-provider links open their usual destinations.
 
 The flour effect is animated over a still photograph. A filmed MP4 can be added to the WordPress hero later.
 
 This branch publishes the review mockup only. It does not change the live grodzinski.co.uk website.
+
+## Delivery and pickup checkout
+
+The checkout now has delivery or **free Stamford Hill pickup**, a calendar, time slots, postcode-based example quotes, and the existing £20 minimum basket. Add at least £20 of products, open the basket and select **Preview checkout**.
+
+Try **E5 9AG (£5.50)**, **N17 6AA (£16)**, **NW11 9AB / NW4 2AA (£21.50)**, **HA8 7AA (£38)** or **SW1A 1AA (£30)**. These exact addresses were checked on the current store. The full shipping-zone rules and preparation-time settings are awaiting a copy from WordPress admin; other postcodes cannot yet be quoted in this offline preview. Pickup is at **168–170 Clapton Common, Stamford Hill, London E5 9AG**.
+
+The calendar excludes Saturdays and uses the publicly displayed time slots. Its preparation-time rule is provisional until the existing scheduling settings are supplied.
+
+Pickup times match the supplied admin screenshot: **09:00–22:00, every 30 minutes**, with a required manual time selection.
